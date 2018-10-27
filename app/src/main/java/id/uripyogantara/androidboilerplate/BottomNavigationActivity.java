@@ -27,8 +27,8 @@ public class BottomNavigationActivity extends AppCompatActivity implements Botto
 
     private void setUpBnv(){
         bnv.enableAnimation(false);
-        bnv.enableShiftingMode(false);
-        bnv.enableItemShiftingMode(false);
+        bnv.setLabelVisibilityMode(1);
+        bnv.setItemHorizontalTranslationEnabled(false);
         bnv.setOnNavigationItemSelectedListener(this);
     }
 
