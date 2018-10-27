@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".BottomNavigationActivity">
+        </activity>
+        <activity android:name=".SplashScreenActivity" />
+        <activity android:name=".NavigationDrawerActivity"
+            android:theme="@style/NavigationDrawerTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashScreenActivity"></activity>
     </application>
 
 </manifest>
